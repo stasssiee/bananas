@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [{ "src": "api/feedback.js", "use": "@vercel/node" }],
     "env": {
-      "DISCORD_WEBHOOK_URL": "@discord-webhook-url"
+      "DISCORD_WEBHOOK_URL": "discord-webhook-url"
     }
   }
   
